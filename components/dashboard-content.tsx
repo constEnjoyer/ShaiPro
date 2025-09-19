@@ -96,7 +96,7 @@ export function DashboardContent() {
             <div>
               <h3 className="font-medium text-foreground">ИИ-агент готов к работе</h3>
               <p className="text-sm text-muted-foreground">
-                Подключения к Zoom активны. Jira интеграция настроена. готов анализировать речь и
+                Подключения к Zoom активны. Jira интеграция настроена. Gemini 1.5 Flash готов анализировать речь и
                 создавать задачи.
               </p>
             </div>
