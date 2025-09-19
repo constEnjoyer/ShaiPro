@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
 
     console.log("[v0] Audio data length:", audioBase64.length)
 
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" })
+    const model = genAI.getGenerativeModel({ model: "ai" })
 
     const prompt = `
     Пожалуйста, расшифруй эту аудиозапись встречи и извлеки следующую информацию:

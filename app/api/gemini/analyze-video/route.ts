@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
     }
 
     let model
-    let modelName = "gemini-1.5-flash" // Much cheaper and faster
+    let modelName = "ai" // Much cheaper and faster
 
     try {
       model = genAI.getGenerativeModel({ model: modelName })

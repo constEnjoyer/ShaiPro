@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
 
     console.log("[v0] Image data length:", imageData.length)
 
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" })
+    const model = genAI.getGenerativeModel({ model: "ai" })
 
     const prompt = `
     Проанализируй этот скриншот экрана и извлеки следующую информацию НА РУССКОМ ЯЗЫКЕ:
