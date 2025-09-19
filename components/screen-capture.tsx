@@ -266,7 +266,7 @@ export function ScreenCapture({ onTasksCreated }: ScreenCaptureProps) {
         toast({
           type: "success",
           title: "Видео успешно обработано!",
-          description: `Создано задач: ${result.createdTasks?.length || 0}. Модель: ${result.modelUsed || "gemini"}`,
+          description: `Создано задач: ${result.createdTasks?.length || 0}.}`,
           duration: 5000,
         })
 
